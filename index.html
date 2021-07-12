@@ -6,32 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/14883d2ece.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <!-- nav bar -->
-        <nav>
+        <!-- header bar -->
+        <div class="kopf">
             <ul>
                 <li>Ella´s Note</li>
-                <li>Spickzettel von Ella</li>
-                <li></li>
-            </ul>
-        </nav>
-    
+                <li>Spickzettel von Ella</li> 
+                <li> <i class="far fa-grin-tongue-wink"></i></li>  
+            </ul>  
+        </div>
     </header>
         <!-- sidebar menü -->
-        <aside>
-            <h3>List</h3>
-            <ul>
-                <li><a href="#Terminal">Terminal</a></li>
-                <li><a href="#Git/Github">Git/Github</a></li>
-                <li><a href="#MedienSource">MedienSource</a></li>
-                <li><a href="#">Frontend</a></li>
-                <li><a href="#">Backend</a></li>
-            </ul>
-        </aside>
-        <!-- titel von übersicht -->
         <main>
+            <section class="list">
+                <h3>List</h3>
+                <ul>
+                    <li><i class="fas fa-terminal"></i><a href="#Terminal">Terminal</a></li>
+                    <li><i class="fab fa-git-square"></i><a href="#Git/Github">Git/Github</a></li>
+                    <li><i class="fab fa-medium"></i><a href="#MedienSource">MedienSource</a></li>
+                    <li><i class="fab fa-html5"></i><a href="#">HTML</a></li>
+                    <li><i class="fab fa-css3-alt"></i><a href="#">CSS</a></li>
+                </ul>
+            </section>
+
+        <!-- side nav bar -->
             <section id="Terminal"><ul>
                 <li><a href="">ordner erstellen</a></li>
                 <li><a href="">datei erstellen</a></li>
