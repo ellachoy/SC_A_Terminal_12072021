@@ -71,7 +71,7 @@ main {
   padding-left: 3em;
   border-bottom: 1px gray solid;
 }
-.list ul li:nth-child(2) a:hover {
+.list ul li:nth-child(1) a:hover {
   color: white;
   background-color: purple;
 }
